@@ -1,14 +1,13 @@
-import { useState } from 'react'
+import { useState, useEffect, useCallback, useMemo } from 'react'
 import { RouterProvider, createBrowserRouter, BrowserRouter as Router, Route, Routes, Link, NavLink} from 'react-router-dom'
 import './App.css'
 import { Navbar } from './components/Navbar/Navbar'
+import { Products } from './components/Products/Products'
 
 const Home = () => {
   return <div>Home</div>
 }
-const Products = () => {
-  return <div>Products</div>
-}
+
 
 const Cart = () => {
   return <div>Cart</div>
