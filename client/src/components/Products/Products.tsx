@@ -23,8 +23,8 @@ export const Products = () => {
     const products = useMemo(() => {
       return (
           data.map(({ title, images, id }) => (
-        <div className="products">
-            <p key={id}>{title}</p>
+        <div key={id} className="products">
+            <p>{title}</p>
             <img src={images[0]} alt={title} />
         </div>
         ))

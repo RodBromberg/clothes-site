@@ -1,7 +1,7 @@
 import React from 'react'
 
-export const HomePage.test = () => {
+export const HomePage = () => {
   return (
-    <div>HomePage.test</div>
+    <div>HomePage</div>
   )
 }
