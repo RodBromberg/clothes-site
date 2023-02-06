@@ -3,7 +3,10 @@ import { RouterProvider, createBrowserRouter, BrowserRouter as Router, Route, Ro
 import './App.css'
 
 import { Navbar } from './components/Navbar/Navbar'
+import Test from './components/Navbar/Test'
 import { Products } from './components/Products/Products'
+import HomePage from './pages/HomePage/HomePage'
+
 
 
 const Home = () => {
@@ -32,10 +35,11 @@ const router = createBrowserRouter([
 const App = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
+      <Test />
       <div className="container">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/products" element={<Products />} />
           <Route path="/cart" element={<Cart />} />
         </Routes>

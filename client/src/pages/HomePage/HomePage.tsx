@@ -1,26 +1,20 @@
 import React from 'react';
+import {SearchBar} from '../../components/SearchBar/SearchBar';
 import './HomePage.css';
 
-import { SearchBar } from '../../components/SearchBar/SearchBar';
-import { CustomerReviews } from '../../components/CustomerReviews/CustomerReviews';
-// import ProductCategories from './ProductCategories';
-// import ProductFilters from './ProductFilters';
-// import ProductRecommendations from './ProductRecommendations';
-// import CustomerReviews from './CustomerReviews';
+// import { CustomerReviews } from './CustomerReviews';
 
 export const HomePage = () => {
   return (
     <div className="HomePage">
       <header className="HomePage-header">
-        <SearchBar />
+        {/* <SearchBar /> */}
       </header>
       <main className="HomePage-main">
-        {/* <ProductCategories />
-        <ProductFilters />
-        <ProductRecommendations /> */}
+        {/* Add product categories, filters, and recommendations here */}
       </main>
       <aside className="HomePage-aside">
-        <CustomerReviews />
+        {/* <CustomerReviews /> */}
       </aside>
     </div>
   );

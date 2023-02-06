@@ -1,0 +1,124 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #19c573; /* Amazon's iconic green color */
+    /* height: 50px;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    font-weight: bold; */
+   } 
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .logo,
+  .address-selector,
+  .language-selector,
+  .sign-in,
+  .returns-orders,
+  .cart,
+  .search-wrapper {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .logo:hover,
+  .address-selector:hover,
+  .language-selector:hover,
+  .sign-in:hover,
+  .returns-orders:hover,
+  .cart:hover,
+  .search-wrapper:hover {
+    outline: 1px solid #fff;
+  }
+  
+
+  .logo {
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .address-selector {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .language-selector {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .sign-in {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .returns-orders {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .cart {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    width: 40%;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #19c573;
+    overflow: hidden;
+  }
+  
+  .search-bar-select {
+    margin-right: 10px;
+  }
+  
+  .search-bar-input {
+    width: 100%;
+    height: 100%;
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    
+  }
+  
+  .search-bar-button {
+    height: 40px;
+    width: 90px;
+    background-color: #19c573;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+   .logo:hover,
+   .address-selector:hover,
+   .search-bar:hover,
+   .language-selector:hover,
+   .sign-in:hover,
+   .returns-orders:hover,
+   .cart:hover {
+  outline: 1px solid white;
+}
